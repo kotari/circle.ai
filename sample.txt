@@ -1,0 +1,11 @@
+curl --location 'http://127.0.0.1:8000/api/ollama/generate' \
+--header 'Content-Type: application/json' \
+--data '{
+    "model": "llama2",
+    "prompt": "why is the sky blue?" 
+}'
+
+curl -i http://rajesh-MS-7C79:11434/api/generate -d '{
+  "model": "llama2",
+  "prompt":"Why is the sky blue?", "max_tokens": 50, "stream": false
+}'

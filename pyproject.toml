@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "circle.ai"
+version = "0.1.0"
+description = "Wrapper to call different llms"
+authors = ["kotari <kotari@hotmail.com>"]
+license = "BSD"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+pydantic = "^2.6.4"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+openai = {extras = ["datalib"], version = "^0.27.4"}
+ollama = "^0.1.8"
+
+[tool.poetry.dev-dependencies]
+black = "^24.3.0"
+flake8 = "^7.0.0"
+pre-commit = "^3.7.0"
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
