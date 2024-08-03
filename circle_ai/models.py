@@ -6,3 +6,4 @@ class GenerateInput(BaseModel):
     model: str
     prompt: str
     stream: bool
+    parameters: dict

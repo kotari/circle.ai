@@ -1,5 +1,6 @@
 from typing import List, Iterator, Callable
 
+
 class StreamProcessor:
     def __init__(self, stream_processor: Callable) -> None:
         self.stream_processor = stream_processor
