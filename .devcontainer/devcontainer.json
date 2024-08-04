@@ -47,9 +47,9 @@
   "remoteUser": "vscode",
   "features": {
     "github-cli": "latest"
-  },
-  "mounts": [
-    // Re-use local Git configuration
-    "source=${localEnv:HOME}/.gitconfig,target=/home/vscode/.gitconfig,type=bind,consistency=cached"
-  ]
+  }
+  // "mounts": [
+  //   // Re-use local Git configuration
+  //   "source=${localEnv:HOME}/.gitconfig,target=/home/vscode/.gitconfig,type=bind,consistency=cached"
+  // ]
 }

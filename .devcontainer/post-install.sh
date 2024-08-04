@@ -16,6 +16,6 @@ poetry config cache-dir ${WORKSPACE_DIR}/.cache
 poetry config virtualenvs.in-project true
 
 # Now install all dependencies
-# poetry install
+poetry install
 
 echo "Done!"
